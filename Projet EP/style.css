@@ -1,0 +1,69 @@
+@font-face {
+    font-family: dancing_script;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: lobster;
+    src: url(Lobster-Regular.ttf);
+}
+
+body{
+    background-color: #B31507;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+
+    
+}
+#ep_title {
+    font-family: lobster;
+    font-size: 40px;
+    color: yellow;
+    
+}
+
+#artist {
+    font-family: lobster;
+    font-size: 40px;
+    color: yellow;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#ep {
+    font-family: lobster;
+    font-size: 40px;
+    color: yellow;
+    
+}
+
+#artist_bio {
+    display: flex;
+    justify-content: space-evenly;
+}
+#bio {
+    font-family: lobster;
+    font-size: 30px;
+    color: white;
+    max-width: 500px;
+    padding-left: -200px;
+}
+#ep_1 {
+    display: flex;
+    justify-content: right;
+    
+
+}
+#img1 {
+    width: 400px;
+    
+}
+#spotify {
+    padding-top: 50px;
+
+}
